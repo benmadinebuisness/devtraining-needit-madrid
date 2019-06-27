@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="NeedIt Table" max_length="40" name="x_58872_needit_needit_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Department attributes" mandatory="true" max_length="40" name="u_choice_8" type="string">
+            <choice>
+                <element label="Keyboards" sequence="0" value="keyboards"/>
+                <element label="Mice" sequence="1" value="mice"/>
+                <element label="Tax" sequence="2" value="tax"/>
+                <element label="Money" sequence="3" value="money"/>
+                <element label="Lawyerings" sequence="4" value="lawyerings"/>
+                <element label="Criminal" sequence="5" value="criminal"/>
+                <element label="Other" sequence="6" value="other"/>
+            </choice>
+        </element>
+        <element label="New Due Date" max_length="40" name="u_due_date_2" type="due_date"/>
+        <element label="Requested completion" mandatory="true" max_length="40" name="u_glide_date_time_5" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Other attribute" max_length="40" name="u_other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Department" mandatory="true" max_length="40" name="u_requested_for_department" type="string">
+            <choice>
+                <element label="Computing" sequence="0" value="computing"/>
+                <element label="Accounting" sequence="1" value="accounting"/>
+                <element label="Legal" sequence="2" value="legal"/>
+                <element label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="User details" mandatory="true" max_length="40" name="u_requested_for_user_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User email" mandatory="true" max_length="40" name="u_requested_for_user_email" type="string"/>
+    </element>
+</database>
