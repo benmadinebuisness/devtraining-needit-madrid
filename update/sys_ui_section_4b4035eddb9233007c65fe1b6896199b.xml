@@ -5,29 +5,15 @@
             <element>u_glide_date_time_5</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-27 11:11:16</sys_created_on>
-            <sys_id>849039eddb9233007c65fe1b689619ab</sys_id>
+            <sys_created_on>2019-06-27 19:47:00</sys_created_on>
+            <sys_id>0796636ddbd633007c65fe1b68961903</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Date" display_value="Date" name="x_58872_needit_needit_table" sys_domain="global" view="Default view">4b4035eddb9233007c65fe1b6896199b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 11:11:16</sys_updated_on>
+            <sys_updated_on>2019-06-27 19:47:00</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-27 11:11:16</sys_created_on>
-            <sys_id>089039eddb9233007c65fe1b689619ab</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Date" display_value="Date" name="x_58872_needit_needit_table" sys_domain="global" view="Default view">4b4035eddb9233007c65fe1b6896199b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 11:11:16</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Date</caption>
